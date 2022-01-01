@@ -1,0 +1,14 @@
+cmake_minimum_required(VERSION 3.20)
+project(opencv)
+
+set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_BUILD_TYPE Debug)
+
+add_subdirectory(1_HelloOpenCV)
+add_subdirectory(2_Use_imwrite)
+add_subdirectory(3_LoadShowOutputImage)
+add_subdirectory(4_CreateTrackbar)
+add_subdirectory(5_UseMouse)
+add_subdirectory(6_UseMat)
+add_subdirectory(7_DrawImage)
+add_subdirectory(8_AccessPicel)
